@@ -43,8 +43,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                     .username("reir")
                    .password(encoder.encode("1234"))
                    .roles("ADM")
-                   .build();
-                   */
+                   .build();*/
         
         auth.jdbcAuthentication()
             .dataSource(dataSource)
